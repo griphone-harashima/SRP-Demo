@@ -52,14 +52,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Demo\DemoSRPAsset.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
-     <Compile Include="Assets\Scripts\Demo\DemoRenderPipeline.cs" />
-     <Compile Include="Assets\Scripts\Demo\MyRenderPipelineAsset.cs" />
-     <Compile Include="Assets\Scripts\Demo\MyRenderPipeline.cs" />
-     <Compile Include="Assets\Scripts\Demo\MyCameraRenderer.cs" />
-     <None Include="Assets\Materials\Unlit.shader" />
+     <Compile Include="Assets\Scripts\Complete\GriRenderPipelineComplete.cs" />
+     <Compile Include="Assets\Scripts\Complete\GriRenderPipelineAssetComplete.cs" />
+     <Compile Include="Assets\Scripts\Demo\GriRenderPipeline.cs" />
+     <Compile Include="Assets\Scripts\Demo\GriRenderPipelineAsset.cs" />
+     <None Include="Assets\Materials\SRPDefaultUnlit.shader" />
      <None Include="Assets\Materials\Transparent.shader" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Program Files (x86)/UnityEditors/2020.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

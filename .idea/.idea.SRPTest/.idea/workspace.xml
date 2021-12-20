@@ -19,19 +19,21 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/DemoRenderPipeline.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/MyRenderPipelineAsset.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.26/UnityEngine.TestRunner/TestRunner/Callbacks/TestResultRendererCallback.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/MyRenderPipeline.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/GriRenderPipeline.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24599FE2-7761-45D5-8AB7-71516C063D56/cc/7a953299/Camera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@10.5.0/Editor/AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/Runtime/Data/UniversalRenderPipelineAsset.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/Runtime/Volume/Volume.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24599FE2-7761-45D5-8AB7-71516C063D56/39/218a68dc/RenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/Runtime/Utilities/SceneRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/Runtime/ScriptableRenderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/Runtime/ForwardRendererData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/MyCameraRenderer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/Presenters/ChangesPresenter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24599FE2-7761-45D5-8AB7-71516C063D56/b8/1bc8627a/ScriptableRenderContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24599FE2-7761-45D5-8AB7-71516C063D56/a6/ed178336/RenderPipelineAsset.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demo/GriRenderPipelineAsset.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -40,9 +42,18 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Demo/DemoSRPAsset.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Demo/MyRenderPipelineAsset.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Demo/MyRenderPipeline.cs" />
-      <option value="$PROJECT_DIR$/Assets/Materials/Unlit.shader" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Demo/MyCameraRenderer.cs" />
       <option value="$PROJECT_DIR$/Assets/Materials/Transparent.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GriRenderPipeline.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GriRenderPipelineComplete.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GriRenderPipelineAssetComplete.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Demo/GriRenderPipelineAsset.cs" />
+      <option value="$PROJECT_DIR$/Assets/Materials/Unlit.shader" />
+      <option value="$PROJECT_DIR$/Assets/Materials/SRPDefaultLit.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Demo/My/MyCameraRenderer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Complete/GriRenderPipelineAssetComplete.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Demo/GriRenderPipeline.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Complete/GriRenderPipelineComplete.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="21sKQru4q1wKWLmdHcS8gtMxJaX" />
