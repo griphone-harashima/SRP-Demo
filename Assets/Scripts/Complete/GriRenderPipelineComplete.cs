@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class GriRenderPipeline : RenderPipeline
+public class GriRenderPipelineComplete : RenderPipeline
 {
     // 描画処理
     protected override void Render(ScriptableRenderContext context, Camera[] cameras)
@@ -27,12 +27,17 @@ public class GriRenderPipeline : RenderPipeline
             };
             var drawingSettings = new DrawingSettings(new ShaderTagId("SRPDefaultUnlit"), sortingSettings);
             var filteringSettings = new FilteringSettings(RenderQueueRange.all);
-            
-            // 描画処理
             context.DrawRenderers(cullingResults, ref drawingSettings, ref filteringSettings);
             
-            // SkyBoxの描画
+            // skyboxの描画
             context.DrawSkybox(camera);
+            
+            // 3.透過オブジェクトを描画
+            sortingSettings.criteria = SortingCriteria.CommonTransparent;
+            drawingSettings.sortingSettings = sortingSettings;
+            filteringSettings.renderQueueRange = RenderQueueRange.transparent;
+            
+            context.DrawRenderers(cullingResults, ref drawingSettings, ref filteringSettings);
         }
         
         context.Submit();
